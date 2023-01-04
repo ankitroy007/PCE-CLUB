@@ -2,6 +2,9 @@
     /* .navbars{
         background-image: linear-gradient(to left,red,purple);
     } */
+    .bars{
+        display: block !important;
+    }
     .header-a{
         margin-top: 90px !important;
     }
@@ -199,8 +202,11 @@ font-size: xx-large;
         .bars{
             position: absolute;
             right:10px;
-            top:5vh;
+            
         }
 
 
+}
+.bars{
+    display: none;
 }

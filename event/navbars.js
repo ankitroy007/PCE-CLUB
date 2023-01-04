@@ -1,14 +1,14 @@
-var barsValue= false;
-function tryDo(){
+// var barsValue= false;
+// function tryDo(){
 
-if(!barsValue){
+// if(!barsValue){
    
-barsValue=true;
-document.getElementById("open").style.left='0%';
- }else{
-     valsZ=false;
- document.getElementById("open").style.left='100%';
+// barsValue=true;
+// document.getElementById("open").style.left='0%';
+//  }else{
+//      valsZ=false;
+//  document.getElementById("open").style.left='100%';
 
 
-}
-}
+// }
+// }
