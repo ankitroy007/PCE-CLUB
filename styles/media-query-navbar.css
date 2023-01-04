@@ -1,0 +1,206 @@
+@media screen and (max-width:1300px){
+    /* .navbars{
+        background-image: linear-gradient(to left,red,purple);
+    } */
+    .header-a{
+        margin-top: 90px !important;
+    }
+    .part-2{
+        height: auto;
+    }
+    .part-2 h2{
+font-size: 2rem;
+
+    }
+    .part-2 p{
+        font-size: medium;
+        font-family: cursive;
+        font-weight: lighter;
+        margin-top: 40px !important;
+        margin-bottom: 0px !important;
+    }
+    .menu{
+        position: absolute;
+        top:20vh;
+        left:-100%;
+        height:80vh;
+       background-image: linear-gradient(to left,red,purple);
+        width:100%;
+        margin: 0 !important;
+        z-index: 9999;
+    }
+    .menu ul{
+       justify-content: center;
+       text-align: center;
+       margin-top: 20px;
+    }
+    .menu ul li{
+        display:block ;
+        margin: 35px 0px;
+        text-align: center;
+    }
+    .menu ul li a{
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+       
+    }
+    .menu ul li a:hover{
+        text-align: center;
+     border:0 !important;
+  width:100px;
+  height:20px;
+color:yellow;
+font-size: xx-large;
+  
+
+    
+    }
+    .btn-join{
+        display: none !important;
+    }
+    .logo{
+        border: 5px solid purple;
+        box-shadow: 2px 2px 3px red;
+    }
+
+    .menu_Symbol{
+        border-left: 7px solid purple;
+        box-shadow: 5px 5px 10px red;
+    }
+    .part-1{
+        display: none !important;
+    }
+
+   
+}
+
+@media screen and (max-width:688px){
+    .logos{
+       
+        margin: 10px 1px !important;
+        
+       
+    }
+
+    .logos .logo{
+        width:80px;
+        height: 80px;
+       
+    }
+
+    
+.logo-name{
+    margin: 0px 5px !important;
+}
+.logo-name span{
+    font-size: 1.5rem !important;
+    
+}
+
+#name{
+   
+    transform: translateY(50%);
+    font-size: 0.7rem;
+}
+.part-2{
+    width:100% !important;
+    text-align: justify !important;
+    padding: 0 20px;
+}
+}
+
+
+@media screen and (max-width:501px){
+    .logos{
+       
+        margin: 10px 0px !important;
+        
+       
+    }
+
+    .logos .logo{
+        width:50px;
+        height:50px;
+       
+    }
+
+    
+.logo-name{
+    margin: 0px 2px !important;
+}
+.logo-name span{
+    font-size: 1rem !important;
+    
+}
+
+#name{
+   
+    transform: translateY(50%);
+    font-size: 0.4rem;
+}
+.part-2{
+    width:100% !important;
+    text-align: justify !important;
+    padding: 0 20px;
+}
+}
+
+@media screen and (max-width:352px){
+    .part-2 h2{
+        font-size:1.3rem !important;
+        
+            }
+            .part-2 p{
+                font-size: small;
+                font-family: cursive;
+                font-weight: lighter;
+                margin-top: 30px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .logos{
+       
+                margin: 10px 0px !important;
+                
+               
+            }
+        
+            .logos .logo{
+                width:65px;
+                height: 65px;
+               
+            }
+        
+            
+        .logo-name{
+            margin: 0px 1px !important;
+        }
+        .logo-name span{
+            font-size: 0.8rem !important;
+            
+        }
+        
+        #name{
+           
+            transform: translateY(50%);
+            font-size: 0.6rem;
+        }
+       
+        .menu_Symbol{
+            height: 38px;
+            width: 38px;
+        }
+        .menu_Symbol svg{
+            transform: translate(1%,2%) !important;
+            height: 30px !important;
+            width: 30px !important;
+            
+        }
+        .bars{
+            position: absolute;
+            right:10px;
+            top:5vh;
+        }
+
+
+}
