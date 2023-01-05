@@ -36,7 +36,9 @@ display: inline-block !important;
 border-bottom: 3px solid purple;
 
 }
-
+.social-media_menu{
+    display:block !important;
+}
 
 
 
@@ -246,7 +248,7 @@ font-size: xx-large;
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
 .back-image{
     background-image: linear-gradient(to left,red,purple);
 }
