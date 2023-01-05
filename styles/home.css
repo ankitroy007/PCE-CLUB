@@ -52,6 +52,7 @@ position: relative;
    
    
 }
+
 .logo-name{
     margin: 0px 20px;
 }
@@ -80,6 +81,7 @@ position: relative;
     position: absolute;
     right:0;
     margin: 10px 20px !important;
+   
    
 }
 .menu ul{
@@ -200,9 +202,10 @@ height: 400px;
 }
 
 .bars{
-    position: absolute;
+    position: fixed;
     right:30px;
     top:5vh;
+    z-index: 9999 !important;
 }
 
 
@@ -232,6 +235,7 @@ height: 400px;
    background-image: linear-gradient(to top,red,purple);
    
 }
+
 .menu_Symbol svg{
     transform: translateY(20%) !important;
     

@@ -2,6 +2,10 @@
     /* .navbars{
         background-image: linear-gradient(to left,red,purple);
     } */
+    #lockLargeScreen{
+        display: block !important;
+        z-index: 9999;
+    }
     .bars{
         display: block !important;
     }
@@ -24,13 +28,16 @@ font-size: 2rem;
     }
     .menu{
         position: absolute;
-        top:20vh;
-        left:-100%;
-        height:80vh;
-       background-image: linear-gradient(to left,red,purple);
+        top:-1000%;
+        left:0;
+        height:100vh;
+        background-image: linear-gradient(to left,red,purple);
         width:100%;
         margin: 0 !important;
-        z-index: 9999;
+        z-index: 9;
+    }
+    .menu:active{
+        background-image: linear-gradient(to right,red,purple);
     }
     .menu ul{
        justify-content: center;
@@ -206,6 +213,16 @@ font-size: xx-large;
         }
 
 
+}
+
+
+@media screen and (max-width:375px){
+.back-image{
+    background-image: linear-gradient(to left,red,purple);
+}
+}
+#lockLargeScreen{
+    display: none !important;
 }
 .bars{
     display: none;
