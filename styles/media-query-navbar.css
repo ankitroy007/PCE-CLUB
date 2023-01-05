@@ -12,8 +12,51 @@
     .header-a{
         margin-top: 90px !important;
     }
+    /* social media links */
+    .social-media{
+        display: none;
+    }
+.social-media_menu ul li{
+display: inline-block !important;
+}
+
+
+   
+
+
+.social-media_menu ul li{
+        margin: 0px 3px !important;
+        display: inline-block;
+       
+       
+        
+       
+        transition: all 0.3s ease-in-out;
+       
+       
+        
+    }
+
+
+   
+    .social-media_menu ul li a i{
+    font-size: 25px !important;
+   
+}
+.social-media_menu ul li:hover{
+
+
+border-bottom: 3px solid purple;
+
+}
+
+
+
+
+    /* ************************************************************************************************* */
     .part-2{
         height: auto;
+        
     }
     .part-2 h2{
 font-size: 2rem;
