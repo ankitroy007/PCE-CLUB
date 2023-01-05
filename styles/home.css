@@ -16,10 +16,24 @@ background-size:cover,cover;
    height:100vh;
 opacity: 0.9;   
 position: relative; 
-
-
+transition-duration: 1s;
+animation: backgroundImageChange 5s ease-in-out infinite alternate;
 }
 
+@keyframes backgroundImageChange {
+    from{
+        background-image: url(../images/background-images.jpg);
+    }
+    to{
+        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt.jpg);
+    }
+    /* 50%{
+        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt\ \(4\).jpg);
+    }
+    75%{
+        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt\ \(3\).jpg);
+    } */
+}
 .navbars{
     position: relative;
     padding:20px !important;
