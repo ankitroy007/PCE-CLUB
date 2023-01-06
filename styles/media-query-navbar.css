@@ -1,7 +1,7 @@
 @media screen and (max-width:1300px){
-    /* .navbars{
-        background-image: linear-gradient(to left,red,purple);
-    } */
+    .navbars{
+        background-color: transparent !important;
+    }
     #lockLargeScreen{
         display: block !important;
         z-index: 9999;

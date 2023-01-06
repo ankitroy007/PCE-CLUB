@@ -28,12 +28,17 @@ overflow: hidden;
     padding:20px !important;
     box-sizing: border-box;
     height: 22vh !important;
-   background-image: linear-gradient(to right,blue,purple);
+   
    opacity: 1;
     width:100%;
     display: flex;
    
 
+}
+@media screen and (min-width:1300px) {
+    .navbars{
+        background-image: linear-gradient(to right,blue,purple);
+    }
 }
 .logos{
     display: flex !important;
