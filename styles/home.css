@@ -2,9 +2,12 @@
 *{
     margin: 0;
     padding: 0;
+   
 
 }
-
+body{
+    background-image: linear-gradient(to right,red,purple);
+}
 
 .back-image{
   
@@ -16,30 +19,16 @@ background-size:cover,cover;
    height:100vh;
 opacity: 0.9;   
 position: relative; 
-transition-duration: 1s;
-animation: backgroundImageChange 5s ease-in-out infinite alternate;
+
 }
 
-@keyframes backgroundImageChange {
-    from{
-        background-image: url(../images/background-images.jpg);
-    }
-    to{
-        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt.jpg);
-    }
-    /* 50%{
-        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt\ \(4\).jpg);
-    }
-    75%{
-        background-image: url(../images/Hii\,\ I\ am\ a\ Pce\,Club\ Associationt\ \(3\).jpg);
-    } */
-}
 .navbars{
     position: relative;
     padding:20px !important;
     box-sizing: border-box;
-    height: 20vh !important;
-   
+    height: 21vh !important;
+   background-image: linear-gradient(to right,red,purple);
+   opacity: 0.8;
     width:100%;
     display: flex;
 
@@ -298,3 +287,321 @@ background-image: linear-gradient(to left,red,purple);
 border-bottom: 3px solid purple;
 
 }
+
+/* about section */
+
+.about{
+    margin-top: 100px;
+}
+.heading{
+    text-align: center !important;
+}
+.heading span{
+    color: white;
+    font-family: cursive;
+    font-size: 5rem;
+}
+.contents{
+    color:white;
+    font-family: cursive;
+    text-align: justify;
+    padding: 50px;
+    border: 1px solid purple;
+    box-shadow: -3px -3px 10px purple;
+}
+.contents:hover{
+    background-image: linear-gradient(to left,red,purple);
+    box-shadow: 3px 3px 10px purple;
+}
+.contents p{
+    font-size: 2rem;
+}
+#readMore{
+    /* text-decoration: none; */
+    color:#fff;
+}
+#readMore:hover{
+    color:red;
+    font-size:xx-large;
+}
+
+/* club section */
+
+.club{
+    margin-top: 100px;
+}
+.box-a{
+  
+    text-align: center;
+    margin:20px 0;
+    padding: 40px 0;
+}
+.box-a img{
+    width:100px !important;
+    height:100px !important;
+    z-index: 1;
+    border:2px solid black;
+  
+}
+.box-b h1{
+    color:#000 !important;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: cursive;
+
+}
+.content-p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color:#000 !important;
+}
+.box{
+    background-color: #fff;
+    opacity:0.8;
+    padding: 30px;
+    box-shadow: -15px -15px 90px purple;
+    margin: 3px 0;
+    transition:all 0.4s ease-in-out;
+    margin: 0 10px;
+  
+}
+.box:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.box:active{
+   background-image: linear-gradient(to left,purple,red);
+}
+.goToNext{
+   color:black;
+   text-decoration: none;
+}
+.goToNext:hover{
+    color:blue;
+    
+ }
+ /* event */
+ .event{
+    margin-top: 100px;
+ }
+ .event-box{
+    display: flex !important;
+    justify-content: center;
+    background-color:#000;
+   box-shadow: -10px -10px 909px purple;
+    padding: 20px;
+
+   
+ }
+ .event-box:hover{
+    opacity: 0.8;
+ }
+ .event-image,.event-content{
+    width:250px;
+    height:270px;
+    z-index: 1;
+   
+ }
+
+ .event-image img{
+    width:100%;
+    height:100%;
+   
+   
+ }
+ .event-image{
+    overflow: hidden !important;
+    border: 2px solid white;
+ }
+ .event-image img:hover{
+    transform: scale(1.5);
+ }
+ .event-content h4{
+margin-top: 50px;
+color:#fff;
+margin-bottom: 20px;
+font-family: cursive;
+padding:10px;
+
+
+ } 
+ .event-content h5{
+    color:white;
+    font-family: cursive;
+padding:10px;
+    
+ }
+.video_event{
+    height: 590px;
+    width:750px;
+}
+.video_event video{
+    height: 100%!important;
+    width:100%;
+   
+    background-color: #000;
+}
+.video-content{
+    border: 2px solid purple;
+    height: auto;
+    padding: 10px;
+    box-shadow: -3px -3px 5px red;
+    width:750px;
+    
+}
+
+.video-content:hover{
+    background-image: linear-gradient(to right,purple,red);
+    box-shadow: 3px 3px 150px red;
+}
+
+.video-heading h1{
+    color:#fff;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+.video-content-b{
+    text-align: justify;
+}
+.video-content-b p{
+    color:#fff;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight:lighter;
+    margin: 20px 0;
+}
+/* blog */
+.blog{
+    margin-top: 100px;
+}
+.blog-box{
+    position: relative;
+    width:350px;
+    height:390px;
+    margin: auto;
+    background-color: antiquewhite;
+    overflow: hidden;
+    
+}
+.blog-box .blog-image{
+  
+    height: 100% !important;
+    width: 100% !important;
+    border: 2px solid white;
+    transition: all 0.8s ease-in-out;
+ 
+}
+
+.blog-box .blog-image img{
+    height: 100% !important;
+    width: 100% !important;
+    
+   
+}
+.blog-box:hover .blog-image{
+transform: scale(0);
+}
+.blog-content{
+    color:#fff;
+    font-family: cursive;
+    font-size: medium;
+    background-color: #000;
+    opacity: 0.9;
+}
+.blog-box .blog_short_content{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+ text-align: center;
+ transform: scale(0);
+ transition: all 0.8s ease-in-out;
+
+}
+.blog-box:hover .blog_short_content{
+    transform: scale(1);
+}
+.blog_short_content p{
+color:red;
+font-size: 3rem;
+font-family: cursive;
+font-weight: bolder;
+margin-top: 100px;
+
+
+
+    
+}
+.gallery{
+    margin-top: 100px;
+}
+.galley-header div{
+   
+    height:300px;
+    transition: all 0.9s ease-in-out;
+    overflow: hidden !important;
+}
+.galley-header div img{
+    height: 100%;
+    width: 100%;
+    border:1px solid white;
+    opacity: 0.8;
+}
+
+.galley-header div:hover img{
+    transform: scale(0.9);
+    transform: rotate(-60deg);
+}
+.gallery-image-large div{
+  height: 500px; 
+  transition: all 0.9s ease-in-out;
+  overflow: hidden !important;
+  
+}
+.gallery-image-large div:hover img{
+transform: scale(0.8);
+}
+
+.gallery-image-large div img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    border:1px solid white;
+   
+}
+
+.main-gallert-container{
+    border: 1px solid white;
+    background-color: #000;
+}
+/* donate button **************************************************************** */
+.donate{
+    text-align: right;
+   
+}
+.donate button{
+  
+    color:white;
+    text-decoration: none;
+     margin: auto;
+   
+    background-image: linear-gradient(to left,red,purple);
+    height: 40px;
+    width:200px;
+    text-align: center !important;
+    box-sizing: border-box;
+    border: 0;
+
+}
+.donate button:hover{
+    background-image: linear-gradient(to left,purple,red);
+}
+/* ******************************************************************************* */

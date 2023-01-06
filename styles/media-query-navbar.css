@@ -63,10 +63,10 @@ font-size: 2rem;
         top:-1000%;
         left:0;
         height:100vh;
-        background-image: linear-gradient(to left,red,purple);
+        background-image: linear-gradient(to bottom,red,purple);
         width:100%;
         margin: 0 !important;
-        z-index: 9;
+        
     }
     .menu:active{
         background-image: linear-gradient(to right,red,purple);
@@ -249,9 +249,12 @@ font-size: xx-large;
 
 
 @media screen and (max-width:425px){
-.back-image{
-    background-image: linear-gradient(to left,red,purple);
+
+.part-2 p{
+    font-size:small;
 }
+
+
 }
 #lockLargeScreen{
     display: none !important;
@@ -261,4 +264,16 @@ font-size: xx-large;
 }
 .social-media_menu{
     display: none;
+}
+@media screen and (max-width:1186px){
+    .navbars{
+        height: 22vh !important; 
+    }
+
+
+}
+@media screen and (max-width:1003px){
+    .navbars{
+        height: 25vh !important; 
+    }
 }
