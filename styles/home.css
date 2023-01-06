@@ -168,7 +168,7 @@ height: 400px;
     transform: rotateY(-180deg);
 }
 .part-2{
-  
+    z-index: -1 !important;
     margin-left: 20px;
 }
 .part-2 h2{
@@ -587,6 +587,7 @@ transform: scale(0.8);
 /* donate button **************************************************************** */
 .donate{
     text-align: right;
+    z-index: -1 !important;
    
 }
 .donate button{

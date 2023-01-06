@@ -277,3 +277,21 @@ font-size: xx-large;
         height: 25vh !important; 
     }
 }
+
+@media screen and (max-width:688px){
+    .navbars{
+        height: 22vh !important; 
+    }
+}
+
+@media screen and (max-width:501px){
+    .navbars{
+        height: 17vh !important; 
+    }
+}
+
+@media screen and (max-width:352px){
+    .navbars{
+        height: 20vh !important; 
+    }
+}
