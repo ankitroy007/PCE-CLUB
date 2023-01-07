@@ -5,10 +5,12 @@
     }
     .contents{
         padding:5px !important;
+        transform: translateX(3.2%) !important;
     }
     .heading span{
         font-size: 2rem;
     }
+
 }
 @media screen and (max-width:991px) {
     .contents p{
