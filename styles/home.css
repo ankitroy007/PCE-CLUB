@@ -676,6 +676,42 @@ top:50%;
 .arousel-caption h2,p{
     font-family: cursive;
 }
+
+/* menu gallery */
+.menu-gallery ul{
+    list-style: none;
+   
+    text-align: center;
+    border-bottom:2px solid purple;
+    background-color: rgba(0,0,0,0.5);
+
+
+}
+.menu-gallery ul:hover{
+    border-bottom: 2px dotted rgb(71, 7, 71);
+}
+
+.menu-gallery ul li{
+display: inline-block;
+margin: 10px 0;
+
+height: 30px;
+width:150px;
+text-align: center;
+}
+.menu-gallery ul li a{
+   text-decoration: none;
+   color:white;
+   font-size: 1rem;
+   font-family: cursive;
+padding: 2px;
+     
+    }
+
+    .menu-gallery ul li:hover{
+        background-color:rgb(0,0,0);
+        
+    }
 /* Sponsorship */
 
 .Sponsorship{
