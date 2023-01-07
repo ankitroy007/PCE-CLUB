@@ -314,10 +314,12 @@ border-bottom: 3px solid purple;
     text-align: justify;
     padding: 50px;
     border: 1px solid purple;
+    background-color: #000;
+    opacity: 0.9;
     box-shadow: -3px -3px 10px purple;
 }
 .contents:hover{
-    background-image: linear-gradient(to left,red,purple);
+    background-image: linear-gradient(to left,black,rgb(48, 1, 48));
     box-shadow: 3px 3px 10px purple;
 }
 .contents p{
@@ -351,7 +353,7 @@ border-bottom: 3px solid purple;
   
 }
 .box-b h1{
-    color:#000 !important;
+    color:#fff !important;
     font-weight: 500;
     font-size: 2rem;
     font-family: cursive;
@@ -360,12 +362,13 @@ border-bottom: 3px solid purple;
 .content-p{
     text-align: justify;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: cursive;
-    color:#000 !important;
+    
 }
+
 .box{
-    background-color: #fff;
+  background-color: #000;
     opacity:0.8;
     padding: 30px;
     box-shadow: -15px -15px 90px purple;
@@ -374,6 +377,7 @@ border-bottom: 3px solid purple;
     margin: 0 10px;
   
 }
+
 .box:hover{
     transform: scale(1.1);
     opacity: 0.6;
@@ -456,11 +460,12 @@ padding:10px;
     padding: 10px;
     box-shadow: -3px -3px 5px red;
     width:750px;
+    background-color: #000;
     
 }
 
 .video-content:hover{
-    background-image: linear-gradient(to right,purple,red);
+    background-image: linear-gradient(to right,rgb(12, 1, 12),rgb(53, 51, 51));
     box-shadow: 3px 3px 150px red;
 }
 
