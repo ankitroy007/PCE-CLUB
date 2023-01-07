@@ -7,6 +7,7 @@
 }
 body{
     background-image: linear-gradient(to right,red,purple);
+   
 }
 
 .back-image{
@@ -618,3 +619,65 @@ transform: scale(0.8);
     background-image: linear-gradient(to left,purple,red);
 }
 /* ******************************************************************************* */
+
+/* review */
+
+.review{
+    margin-top: 100px !important;
+}
+
+.parent{
+    background-color:#000;
+    height:250px;
+    width:70%;
+    margin: auto;
+    box-shadow: 10px 10px 8px rgba(12, 9, 9,0.6);
+  
+  
+}
+.parent:hover{
+    background-image: linear-gradient(to right,rgb(31, 7, 7),rgb(22, 1, 1));
+}
+
+.slide{
+   position: relative;
+    box-sizing: border-box;
+    background-color: rgba(15, 2, 2,0.5);
+    padding: 20px 0;
+    box-sizing: border-box !important;
+ 
+
+}
+.fixed-review-image{
+height:100px;
+width:100px;
+
+
+margin: auto !important;
+
+
+
+}
+.fixed-review-image img{
+height:100%;
+width:100%;
+border-radius: 50%;
+position: relative;
+top:50%;
+
+
+}
+
+
+
+.arousel-caption{
+    margin-top: 70px;
+}
+.arousel-caption h2,p{
+    font-family: cursive;
+}
+/* Sponsorship */
+
+.Sponsorship{
+    margin-top: 100px;
+}
