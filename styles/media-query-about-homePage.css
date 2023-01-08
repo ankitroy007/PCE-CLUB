@@ -81,6 +81,24 @@
 }
 }
 
+@media screen and (max-width:991px){
+    .menu-gallery ul li{
+      
+        height: 30px;
+        width:150px;
+        text-align: center;
+        background-color: black;
+        }
+        .menu-gallery ul li a{
+           text-decoration: none;
+           color:white;
+           font-size: 0.8rem;
+           font-family: cursive;
+        padding: 1px;
+             
+            }
+}
+
 /* @media screen and (max-width:360px){
     .galley-header div{
        width:90%;
