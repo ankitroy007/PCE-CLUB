@@ -2,6 +2,7 @@
 @media screen and (max-width:425px){
     .contents p{
         font-size: small;
+        padding: 20px 20px !important;
     }
     .contents{
         padding:5px !important;
@@ -15,6 +16,9 @@
 @media screen and (max-width:991px) {
     .contents p{
         font-size: medium;
+    }
+    .welcome{
+        display: none !important;
     }
 }
 

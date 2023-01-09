@@ -6,8 +6,9 @@
 
 }
 body{
-    background-image: linear-gradient(to right,red,purple);
-   
+    /* background-image: linear-gradient(to right,red,purple); */
+
+    background-image: linear-gradient(to right,rgb(16, 16, 20),rgb(34, 34, 87));
 }
 
 .back-image{
@@ -191,7 +192,8 @@ height: 400px;
   
 }
 .part-2 h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family:serif;
     font-weight:700;
     color: orangered;
    
@@ -312,9 +314,25 @@ border-bottom: 3px solid purple;
 }
 
 /* about section */
+.about-back-image{
+background-image: url(../images/chess-1.jpeg);
+background-position: center;
+background-attachment:fixed;
+background-size:cover;
+background-repeat: no-repeat;
+animation: aboutImage 3s ease-in-out infinite alternate;
 
+}
+
+@keyframes aboutImage {
+    0%{
+        background-image: url(../images/chess-1.jpeg);
+    }100%{
+        background-image: url(../images/chess-2.png);
+    }
+}
 .about{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .heading{
     text-align: center !important;
@@ -333,13 +351,36 @@ border-bottom: 3px solid purple;
     background-color: #000;
     opacity: 0.9;
     box-shadow: -3px -3px 10px purple;
+    position: relative;
+}
+
+.contents .welcome{
+    height: 100px;
+    width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:-260px;
+  
+}
+.contents .welcome span{
+    font-size: 2rem;
+    font-stretch: ultra-condensed;
+    color:#fff;
+    background-color: rgba(18, 8, 165, 0.6) !important;
+}
+.contents .welcome span:hover{
+    background-color: rgba(6, 14, 61, 0.6) !important;
 }
 .contents:hover{
     background-image: linear-gradient(to left,black,rgb(48, 1, 48));
     box-shadow: 3px 3px 10px purple;
 }
 .contents p{
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 #readMore{
     /* text-decoration: none; */
@@ -353,7 +394,7 @@ border-bottom: 3px solid purple;
 /* club section */
 
 .club{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .box-a{
   
@@ -411,7 +452,7 @@ border-bottom: 3px solid purple;
  }
  /* event */
  .event{
-    margin-top: 100px;
+    margin-top: 3  0px;
  }
  .event-box{
     display: flex !important;
@@ -419,7 +460,7 @@ border-bottom: 3px solid purple;
     background-color:#000;
    box-shadow: -10px -10px 909px purple;
     padding: 20px;
-
+    
    
  }
  .event-box:hover{
@@ -505,7 +546,7 @@ padding:10px;
 }
 /* blog */
 .blog{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .blog-box{
     position: relative;
@@ -569,7 +610,7 @@ margin-top: 100px;
     
 }
 .gallery{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .galley-header div{
    
@@ -638,7 +679,7 @@ transform: scale(0.8);
 /* review */
 
 .review{
-    margin-top: 100px !important;
+    margin-top: 30px !important;
 }
 
 .parent{
@@ -730,5 +771,5 @@ padding: 2px;
 /* Sponsorship */
 
 .Sponsorship{
-    margin-top: 100px;
+    margin-top: 30px;
 }
