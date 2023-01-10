@@ -773,3 +773,214 @@ padding: 2px;
 .Sponsorship{
     margin-top: 30px;
 }
+/* .people-image{
+    position: relative;
+    background-color: aqua;
+   
+} */
+.people .logo-comp{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    position: absolute;
+    top:-25px;
+    left:-15px;
+
+}
+.people-image{
+    border-bottom: 2px solid purple;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people-image .profile{
+height:100px;
+width:100px;
+border-radius: 50%;
+margin: 20px 0;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+   position: relative;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    margin-top: 30px;
+    background-color: #000;
+}
+
+.footer-heading span{
+    color:white;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.form-control{
+    width:60px !important;
+    border:0;
+    background: transparent;
+    border-bottom: 1px solid purple;
+    outline:none;
+    border-radius: 0;
+    color:white;
+   
+}
+
+.form-control:active{
+    background: transparent;
+    outline: none !important;
+    border: 0 !important;
+}
+.form-control:link{
+    background: transparent;
+    outline: none !important;
+    border: 0 !important;
+}
+
+.form-control:hover{
+    background: transparent;
+    outline: none !important;
+    border: 0 !important;
+} 
+.form-control:visited{
+    background: transparent;
+    outline: none !important;
+    border: 0 !important;
+}
+
+
+::placeholder{
+    color:white !important;
+    word-spacing: 5px !important;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+.input-boxes{
+    position: relative;
+}
+.input-boxes .btn{
+position:absolute;
+right:-10%;
+top:40%;
+width:150px;
+height:40px;
+border-radius: 10px !important;
+color:#fff;
+background-image: linear-gradient(to left,red,purple);
+
+}
+
+.input-boxes .btn:hover{
+    background-image: linear-gradient(to right,red,purple);
+}
+
+.lower-footer{
+    border-top: 1px solid white;
+}
+
+.first-footer-sec img{
+    width:130px;
+    height:130px;
+}
+.first-footer-sec h5{
+font-size: medium;
+color:lightgray;
+/* color:white; */
+}
+
+.first-footer-sec button{
+    background-image: linear-gradient(to left,red,purple);
+    outline:none;
+    border: 0;
+    border-radius: 0;
+}
+.first-footer-sec button:hover{
+    background-image: linear-gradient(to right,red,purple);
+}
+.address span{
+color:#fff;
+
+}
+
+.address-1s div i{
+    color:white;
+    font-size: 28px;
+}
+
+.address-1s div p{
+    color:lightgray;
+    font-size: medium;
+    padding: 0 3px !important;
+    box-sizing: border-box !important;
+}
+.address-1s div,.address-2s div{
+    margin: 0 10px;
+}
+
+.address-2s{
+    margin-top: 40px;
+}
+.address-2s div i{
+    color:white;
+    font-size: 28px;
+}
+.address-2s div p{
+    color:lightgray;
+    font-size: small;
+    padding: 0 3px !important;
+    box-sizing: border-box !important;
+   margin-top: 10px;
+  
+}
+.footer-third-sec ul h3{
+    color:#fff;
+    font-size: medium;
+    
+}
+.footer-third-sec ul{
+    list-style:none;
+    
+}
+.footer-third-sec ul li{
+margin:10px 0 !important;
+
+}
+
+
+.footer-third-sec ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    color:#fff;
+    font-size: small;
+}
+
+.connect span{
+    color:#fff;
+}
+
+.footer-social-media{
+    margin-top: 20px;
+}
+.footer-social-media ul{
+    list-style: none;
+}
+.footer-social-media ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer-social-media ul li a{
+    text-decoration: none;
+}
+
+.footer-social-media ul li a i{
+    font-size:2rem;
+}

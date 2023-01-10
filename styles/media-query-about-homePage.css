@@ -214,3 +214,74 @@
 
      /* ************ */
 }
+
+/*                              SPONSORSHIP                                                    */
+
+@media screen and (max-width:767px){
+    .Sponsorship-m2{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .Sponsorship-m1{
+        margin-top: 50px;
+    }
+    .at575column{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .at575column .at575pxWidth{
+        width:60% !important;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    
+    .at575column .at575pxWidth{
+        width:80% !important;
+    }
+
+}
+@media screen and (max-width:375px){
+    
+    .at575column .at575pxWidth{
+        width:90% !important;
+    }
+
+}
+
+/* footer */
+@media screen and (max-width:767px) {
+    .footerat-667pxCenter{
+        text-align: center !important;
+        margin-top:50px;
+    }
+    .at767noneadd{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    .at425pxbtn{
+        display:none !important;
+       
+    }
+    .subscribeat435{
+        background-image: linear-gradient(to left,red,purple);
+        border: 0;
+        outline: none;
+        border-radius: 0;
+        opacity: 1 !important;
+    }
+    .subscribeat435:hover{
+        background-image: linear-gradient(to right,red,purple);
+    }
+}
+.subscribeat435{
+    opacity: 0;
+}
