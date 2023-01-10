@@ -62,7 +62,8 @@ clone the repo
 ```
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/../images/threed-logo.png)
+
+<img src="https://vishal7547.github.io/PCE-CLUB/images/threed-logo.png"  style="height:200px;width:200px;margin:auto">
 
 
  # Project Founders
