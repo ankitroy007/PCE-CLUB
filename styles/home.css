@@ -51,7 +51,7 @@ animation: change 3s ease-in-out infinite alternate;
 }
 @media screen and (min-width:1300px) {
     .navbars{
-        background-image: linear-gradient(to right,blue,purple);
+        background-image: linear-gradient(to left,blue,purple);
     }
 }
 .logos{
@@ -61,8 +61,8 @@ animation: change 3s ease-in-out infinite alternate;
    
 }
 .logos .logo{
-    width:100px;
-    height: 100px;
+    width:140px;
+    height: 140px;
     border-radius: 50%;
     border:2px solid purple;
     color:white;
