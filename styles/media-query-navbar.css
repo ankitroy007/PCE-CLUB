@@ -20,8 +20,17 @@
 display: inline-block !important;
 }
 
-
+/* @media screen and (max-width:1008px){
+    .logos span{
+        margin-top: 5px !important;
+    }
+}
    
+@media screen and (max-width:1007px){
+    .logos span{
+        margin-top: 5px !important;
+    }
+} */
 
 
 .social-media_menu ul li{
