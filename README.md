@@ -6,7 +6,7 @@
 
 ## ABOUT US
 
-we are student of diffrent branchs and years of **PURNEA COLLEGE OF ENGINEERING**, Our main motive is to establish a community which will help to each other while learning. 
+we are student of diffrent branchs and years of **PURNEA COLLEGE OF ENGINEERING**, Our main motive is to establish a community where students will help each other while learning. 
 
 ## Authors
 
