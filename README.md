@@ -1,12 +1,17 @@
 
 # PCE CLUB ASSOCIATION
 
-Pce Club Association is the official club of Purnea college of engineering which is responsible for different kinds of activities cum coding, technical fests, sports, cultural events,startups,innovation drama and many more on the campus. Checkout our blogs for latest events.
+**Pce Club Association** is the association of all three official club of **Purnea college of engineering** which is responsible for organizing and managing different kinds of activities like coding, technical fests, sports, cultural events,startups,innovation drama and many more on the campus.
+ It is a platform for students to come together and showcase their talents,skills and share their ideas and experiences in various fields. The association also provides guidance to the students in terms of career opportunities and helps them develop their skills. It also encourages students to participate in various competitions and events that are organized by the college. The association strives to create an environment where students can learn from each other and grow together as a team.
 
+## ABOUT US
+
+we are student of diffrent branchs and years of **PURNEA COLLEGE OF ENGINEERING**, Our main motive is to establish a community where students will help each other while learning. 
 
 ## Authors
 
 - [@vishal7547](https://github.com/Vishal7547)
+- [@hemant087](https://github.com/hemant087)
 
 
 
@@ -62,7 +67,8 @@ clone the repo
 ```
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/../images/threed-logo.png)
+
+<img src="https://vishal7547.github.io/PCE-CLUB/images/threed-logo.png"  style="height:200px;width:200px;margin:auto">
 
 
  # Project Founders
