@@ -1,0 +1,22 @@
+.background_height_dec{
+    height:100vh;
+    
+}
+/* purpose section */
+.purpose{
+    margin-top: 50px;
+}
+.heading_about{
+    color:grey;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.content_about{
+    color:lightgray;
+    font-size:medium;
+    font-family: cursive;
+}
+/* team section */
+.team{
+    margin-top: 50px;
+}

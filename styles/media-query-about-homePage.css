@@ -263,6 +263,14 @@
     .at767noneadd{
         display: none !important;
     }
+    .input-boxes{
+        width:400px !important;
+
+    }
+    .at767centerinput{
+        text-align: center !important;
+        margin:auto !important;
+    }
 }
 
 @media screen and (max-width:425px) {
